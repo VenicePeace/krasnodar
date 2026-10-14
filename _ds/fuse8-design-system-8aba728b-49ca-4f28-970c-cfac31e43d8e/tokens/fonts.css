@@ -1,0 +1,14 @@
+/* Golos Text — основной шрифт системы. Берётся из Google Fonts. */
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --font-display: "Golos Text", system-ui, -apple-system, sans-serif;
+  --font-body: "Golos Text", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 800;
+}

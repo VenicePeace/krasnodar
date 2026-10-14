@@ -1,0 +1,17 @@
+:root {
+  /* Углов нет нигде */
+  --radius: 0px;
+
+  --rule: 2px;
+  --rule-strong: 2px solid var(--border-strong);
+  --rule-soft: 2px solid var(--border-soft);
+  --rule-invert: 2px solid var(--border-invert);
+
+  /* Теней нет: глубина задаётся линейками и заливкой */
+  --shadow-none: none;
+
+  /* Ромб — брендовый знак */
+  --diamond-sm: 22px;
+  --diamond-md: 34px;
+  --diamond-lg: 64px;
+}

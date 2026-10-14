@@ -1,0 +1,37 @@
+:root {
+  /* Интерфейсная шкала */
+  --text-2xs: 12px;
+  --text-xs: 14px;
+  --text-sm: 16px;
+  --text-md: 18px;
+  --text-lg: 22px;
+  --text-xl: 28px;
+  --text-2xl: 36px;
+  --text-3xl: 48px;
+  --text-4xl: 64px;
+
+  /* Слайдовая шкала 1920×1080 */
+  --slide-display: 146px;
+  --slide-h1: 104px;
+  --slide-h2: 88px;
+  --slide-h2-sm: 78px;
+  --slide-h3: 48px;
+  --slide-lead: 31px;
+  --slide-body: 29px;
+  --slide-list: 27px;
+  --slide-eyebrow: 24px;
+  --slide-num: 30px;
+
+  /* Интерлиньяж */
+  --lh-display: 0.92; /* @kind font */
+  --lh-title: 1.06; /* @kind font */
+  --lh-lead: 1.35; /* @kind font */
+  --lh-body: 1.4; /* @kind font */
+
+  /* Трекинг */
+  --tracking-display: -0.045em;
+  --tracking-title: -0.03em;
+  --tracking-flat: -0.02em;
+  --tracking-eyebrow: 0.16em;
+  --tracking-label: 0.12em;
+}

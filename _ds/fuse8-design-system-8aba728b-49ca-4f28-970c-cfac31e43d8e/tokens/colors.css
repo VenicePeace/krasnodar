@@ -1,0 +1,45 @@
+:root {
+  /* Чернила */
+  --ink-900: #0d0d0d;
+  --ink-850: #131313;
+  --ink-700: #333333;
+  --ink-500: #6b6b6b;
+  --ink-400: #8f8f8f;
+  --ink-300: #a3a3a3;
+  --ink-200: #d6d6d6;
+  --ink-100: #e5e5e5;
+  --paper: #ffffff;
+
+  /* Акцент — единственный цвет системы */
+  --yellow-500: #ffd400;
+  --yellow-600: #e6bf00;
+  --yellow-700: #b39500;
+  --yellow-900: #7a6400;
+
+  /* Семантика: текст */
+  --text-primary: var(--ink-900);
+  --text-secondary: var(--ink-700);
+  --text-muted: var(--ink-500);
+  --text-invert: var(--paper);
+  --text-invert-secondary: var(--ink-200);
+  --text-invert-muted: var(--ink-400);
+  --text-accent-on-light: var(--yellow-900);
+  --text-accent-on-dark: var(--yellow-500);
+
+  /* Семантика: поверхности */
+  --surface-page: var(--paper);
+  --surface-invert: var(--ink-900);
+  --surface-panel-invert: var(--ink-850);
+  --surface-accent: var(--yellow-500);
+  --surface-accent-hover: var(--yellow-600);
+  --surface-accent-press: var(--yellow-700);
+
+  /* Семантика: границы */
+  --border-strong: var(--ink-900);
+  --border-soft: var(--ink-100);
+  --border-invert: var(--ink-700);
+
+  --focus-ring: var(--yellow-500);
+  --selection-bg: var(--yellow-500);
+  --selection-fg: var(--ink-900);
+}
